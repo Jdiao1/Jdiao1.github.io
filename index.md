@@ -1,7 +1,8 @@
-Hello and welcome to this blog. Edit the `index.md` file to change this content. All pages on the blog, including this one, use [Markdown](https://guides.github.com/features/mastering-markdown/). You can include images:
+
+
+## Welcome to Jeremy's ELEC4630 FastAi blog
 
 ![Image of fast.ai logo](images/logo.png)
 
-## This is a title
+The purpose of this blog aims to fast track the learning progress in Fastai.
 
-And you can include links, like this [link to fast.ai](https://www.fast.ai). Posts will appear after this file. 
