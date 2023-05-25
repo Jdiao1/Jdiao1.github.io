@@ -13,3 +13,17 @@ for fn in uploaded.keys():
 !mkdir -p ~/.kaggle/ && mv kaggle.json ~/.kaggle/ && chmod 600 ~/.kaggle/kaggle.json
 """
 
+## Learning how CNN works
+Data Preparation: 
+The first step in working with CNNs is to prepare the data. The data is typically split into training and validation sets.
+
+Defining the CNN Architecture: 
+CNN architectures are defined by creating a subclass of <torch.nn.Module>. The architecture consists of various layers, such as convolutional layers, pooling layers, and fully connected layers. 
+Each layer performs specific operations on the input data.
+
+Forward Propagation: 
+Once the CNN architecture is defined, the forward propagation step is implemented by overriding the forward method in the <torch.nn.Module> subclass. 
+During forward propagation, input data is passed through the layers in the defined order, applying operations like convolutions, non-linear activations(RELU).
+
+Loss Function and Optimization: 
+To train a CNN, a loss function is selected based on the task at hand, such as classification (e.g., cross-entropy loss) or regression (e.g., mean squared error loss)
